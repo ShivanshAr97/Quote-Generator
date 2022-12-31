@@ -1,0 +1,22 @@
+{
+  "name": "quotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivanshAr97/Quote-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivanshAr97/Quote-Generator/issues"
+  },
+  "homepage": "https://github.com/ShivanshAr97/Quote-Generator#readme",
+  "dependencies": {
+    "react-share": "^4.4.1"
+  }
+}

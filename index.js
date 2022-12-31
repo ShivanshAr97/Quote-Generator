@@ -10,11 +10,12 @@ const getQuote = async () => {
         // console.log(realData.length)
         // console.log(a);
 
-        let a = Math.floor(Math.random()*realData.length)
+        // let a = Math.floor(Math.random()*realData.length)
+        let a = Math.floor(Math.random()*20)
         console.log(realData[a].text)
         quote.innerHTML=realData[a].text
 
-        realData[a].author==="null"?
+        realData[a].author===null?realData[a].author="Anonymous":realData[a].author
         console.log(realData[a].author)
         author.innerHTML=realData[a].author
     } catch (error) {
